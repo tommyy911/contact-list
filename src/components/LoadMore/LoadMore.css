@@ -1,0 +1,17 @@
+.load-more{
+    all: unset;
+    padding: 15px;
+    border: 2px solid pink;
+    text-align: center;
+    transition: background-color 400ms, color 400ms;
+    color: #333333;
+    background: #fff
+}
+
+.load-more:hover{
+    background: #efefef;
+}
+.load-more:active{
+    background: pink;
+    color: white;
+}
